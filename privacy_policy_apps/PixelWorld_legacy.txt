@@ -10,7 +10,7 @@ The terms used in this Privacy Policy have the same meanings as in our Terms and
 
 **Information Collection and Use**
 
-[Pixel World gd] doesn't collect any identificable information.
+[Pixel World] doesn't collect any identificable information.
 
 The app does use third party services that may collect information used to identify you.
 

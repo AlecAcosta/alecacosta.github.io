@@ -39,25 +39,27 @@
             color: #3668b3;
             text-decoration: none;
             font-weight: bold;
+            margin-right: 20px; /* Add spacing between the links */
         }
         
-        .btn {
+        .itch-io-icon, .google-play-icon, .discord-icon {
+            background-size: contain;
+            width: 24px; /* Adjust the width as needed */
+            height: 24px; /* Adjust the height as needed */
             display: inline-block;
-            padding: 10px 20px;
-            background-color: #3668b3;
-            color: white;
-            border-radius: 5px;
-            margin-top: 10px;
-            font-size: 18px;
-            transition: background-color 0.3s ease;
+            vertical-align: middle;
         }
-        
-        .btn:hover {
-            background-color: #668fcc;
+
+        .itch-io-icon {
+            background-image: url('icons/itchio.png');
         }
-        
-        .btn:hover span {
-            color: white;
+
+        .google-play-icon {
+            background-image: url('icons/googleplay.png');
+        }
+
+        .discord-icon {
+            background-image: url('icons/discord.png');
         }
     </style>
 </head>
@@ -67,10 +69,12 @@
         <p>Indie game developer</p>
     </header>
     <div class="container">
-        <h2>About Me</h2>
-        <p>Indie game developer based in Mexico.</p>
-        <h2>My Games</h2>
-        <p>Check out my games on <a href="https://alecacosta.itch.io/" class="btn"><span>itch.io</span></a>.</p>
+        <h2>Links</h2>
+        <p>
+            <a href="https://alecacosta.itch.io/"><span class="itch-io-icon"></span>My games on itch.io</a>
+            <a href="https://play.google.com/store/apps/dev?id=6049856330553506693"><span class="google-play-icon"></span>My games on Google Play</a>
+            <a href="https://discord.gg/6rcv6KAqTf"><span class="discord-icon"></span>Join our Discord community</a>
+        </p>
     </div>
 </body>
 </html>

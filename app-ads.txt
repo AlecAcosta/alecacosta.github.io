@@ -167,3 +167,5 @@ video.unrulymedia.com, 995298565, RESELLER
 thebrave.io, 1234678, RESELLER, c25b2154543746ac
 sharethrough.com, bXzzb1bR, RESELLER, d53b998a7bd4ecd2
 rhebus.works, 3897070072, RESELLER
+adsyield.com, 1233, RESELLER
+onetag.com, 7d9af0b85b5070e, RESELLER

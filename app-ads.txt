@@ -190,3 +190,4 @@ video.unrulymedia.com, 392157850, RESELLER
 xandr.com, 15769, RESELLER
 rubiconproject.com, 26386, RESELLER, 0bfd66d529a55807
 smaato.com, 1100056144, RESELLER, 07bcf65f187117b4
+ImproveDigital, 2343, RESELLER

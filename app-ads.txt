@@ -319,3 +319,6 @@ prado.co, 14260, RESELLER
 video.unrulymedia.com, 755432070, RESELLER
 video.unrulymedia.com, 498216989, RESELLER
 vidazoo.com, 66e04f5e4d7fd89d878d29d2, RESELLER, b6ada874b4d7d0b2
+pubnative.net, 1009988, RESELLER, d641df8625486a7b
+thunder-monetize.com, 8221217003, RESELLER
+tradplusad.com, b3fca24bd11c1242, RESELLER

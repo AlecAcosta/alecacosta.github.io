@@ -450,3 +450,5 @@ lacunads.com, LCb555b3bc8667a09a, RESELLER
 ushareit.com, LCb555b3bc8667a09a, RESELLER
 thebrave.io, 1234764, RESELLER, c25b2154543746ac
 themediagrid.com, FALINO, RESELLER, 35d5010d7789b49d
+app-stock.com, 256917, RESELLER
+lijit.com, 556191, RESELLER, fafdf38b16bf6b2b

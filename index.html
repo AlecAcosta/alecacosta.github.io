@@ -3,71 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alec Acosta's Website</title>
+    <title>Alec Acosta</title>
     <style>
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f1f1f1;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
         }
-        
+
         header {
-            background-color: #2c5593;
+            background: linear-gradient(135deg, #2c5593, #4f7fc4);
             color: white;
-            padding: 20px 20px 20px 40px; /* Add more padding to the left */
+            padding: 40px 20px;
             display: flex;
             align-items: center;
             justify-content: center;
         }
 
         header img {
-            border-radius: 50%; /* Makes the image circular */
-            width: 100px; /* Adjust the size as needed */
-            height: 100px; /* Adjust the size as needed */
-            margin-right: 20px; /* Margin around the image */
+            border-radius: 50%;
+            width: 110px;
+            height: 110px;
+            margin-right: 24px;
+            border: 3px solid rgba(255,255,255,0.4);
         }
 
         .header-text {
-            flex: 1;
-            text-align: left; /* Align text to the left */
+            text-align: left;
         }
-        
+
         h1 {
             margin: 0;
             font-size: 36px;
         }
 
         p.subtitle {
-            margin: 0;
-            font-size: 20px; /* Adjust the size as needed */
+            margin-top: 6px;
+            font-size: 18px;
+            opacity: 0.9;
         }
-        
+
         .container {
             max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: white;
+            margin: 40px auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
-        
+
+        h2 {
+            margin-top: 0;
+        }
+
         p {
             font-size: 18px;
-            line-height: 1.5;
+            line-height: 1.6;
         }
-        
+
         a {
             color: #3668b3;
             text-decoration: none;
             font-weight: bold;
-            display: block; /* Ensure each link is on a new line */
-            margin-bottom: 10px; /* Add spacing between the links */
+            display: flex;
+            align-items: center;
+            margin-bottom: 14px;
         }
-        
-        .itch-io-icon, .google-play-icon, .discord-icon, .twitch-icon, .newgrounds-icon {
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .icon {
             background-size: contain;
-            width: 36px; /* Adjust the width as needed */
-            height: 36px; /* Adjust the height as needed */
-            display: inline-block;
-            vertical-align: middle;
+            background-repeat: no-repeat;
+            width: 32px;
+            height: 32px;
+            margin-right: 12px;
+            flex-shrink: 0;
         }
 
         .itch-io-icon {
@@ -78,37 +92,56 @@
             background-image: url('icons/googleplay.png');
         }
 
-        .discord-icon {
-            background-image: url('icons/discord.png');
-        }
-
-        .twitch-icon {
-            background-image: url('icons/twitch.png');
-        }
-
         .newgrounds-icon {
             background-image: url('icons/newgrounds.png');
         }
 
+        footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #777;
+            margin: 40px 0 20px;
+        }
     </style>
 </head>
 <body>
-    <header>
-        <img src="profile-picture.jpg" alt="Alec Acosta's Profile Picture">
-        <div class="header-text">
-            <h1>Alec Acosta</h1>
-            <p class="subtitle">Desarrollador indie</p>
-        </div>
-    </header>
-    <div class="container">
-        <h2>Links</h2>
-        <p>
-            <a href="https://alecacosta.itch.io"><span class="itch-io-icon"></span> Juegos en Itch.io</a>
-            <a href="https://play.google.com/store/apps/dev?id=6049856330553506693"><span class="google-play-icon"></span> Juegos en Google Play</a>
-            <a href="https://alecacosta.newgrounds.com/"><span class="newgrounds-icon"></span> Juegos en Newgrounds</a>
-            <!--a href="https://discord.gg/6rcv6KAqTf"><span class="discord-icon"></span> Comunidad de Discord</a-->
-            <!--a href="https://www.twitch.tv/alectwenty"><span class="twitch-icon"></span> Canal de Twitch</a-->
-        </p>
+
+<header>
+    <img src="profile-picture.jpg" alt="Alec Acosta Profile Picture">
+    <div class="header-text">
+        <h1>Alec Acosta</h1>
+        <p class="subtitle">Desarrollador indie</p>
     </div>
+</header>
+
+<div class="container">
+    <h2>Sobre mí</h2>
+    <p>
+        Desarrollo juegos y aplicaciones móviles como desarrollador indie.
+        Me enfoco en proyectos simples, bien pulidos y pensados para jugadores casuales.
+    </p>
+
+    <h2>Mis juegos</h2>
+
+    <a href="https://alecacosta.itch.io">
+        <span class="icon itch-io-icon"></span>
+        Juegos en Itch.io
+    </a>
+
+    <a href="https://play.google.com/store/apps/dev?id=6049856330553506693">
+        <span class="icon google-play-icon"></span>
+        Juegos en Google Play
+    </a>
+
+    <a href="https://alecacosta.newgrounds.com/">
+        <span class="icon newgrounds-icon"></span>
+        Juegos en Newgrounds
+    </a>
+</div>
+
+<footer>
+    © Alec Acosta — Indie Developer
+</footer>
+
 </body>
 </html>

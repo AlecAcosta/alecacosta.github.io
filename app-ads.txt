@@ -167,3 +167,5 @@ xandr.com, 13799, RESELLER
 xandr.com, 15840, RESELLER
 targetbetter.com, 82228, RESELLER
 themediagrid.com, FALINO, RESELLER, 9fac4a4a87c2a44f
+openx.com, 565175463, RESELLER, 6a698e2ec38604c6
+pubmatic.com, 165750, RESELLER, 5d62403b186f2ace
